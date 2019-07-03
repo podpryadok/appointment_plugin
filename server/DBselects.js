@@ -12,3 +12,5 @@ function getID() {
             });
     });
 }
+
+exports.getID = getID();

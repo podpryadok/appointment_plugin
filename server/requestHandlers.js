@@ -26,7 +26,7 @@ function open(response, postData) {
 async function GetID(){
   console.log("Request handler 'GetID' was called.");
   response.writeHead(200);
-  response.getID();
+  response.getID(db.getID());
   response.end();
 }
 
