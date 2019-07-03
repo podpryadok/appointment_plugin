@@ -23,7 +23,8 @@ function open(response, postData) {
   response.end();
 }
 
-function GetID(){
+async function GetID(){
+  console.log("Request handler 'GetID' was called.");
   response.writeHead(200);
   response.getID();
   response.end();
