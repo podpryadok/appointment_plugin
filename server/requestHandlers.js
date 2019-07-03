@@ -32,3 +32,4 @@ async function GetID(){
 
 exports.start = start;
 exports.open = open;
+exports.GetID = GetID;
