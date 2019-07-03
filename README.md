@@ -1,2 +1,2 @@
-# appointment_plugin
+# appointment plugin
 Плагин для записи на приём\встречу.
